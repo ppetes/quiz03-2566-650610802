@@ -8,7 +8,7 @@ export const GET = async () => {
   return NextResponse.json({
     ok: true,
     rooms: DB.rooms,
-    // totalRooms:
+    totalRooms: "2",
   });
 };
 
